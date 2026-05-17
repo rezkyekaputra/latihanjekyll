@@ -1,0 +1,34 @@
+---
+title: Halaman Beranda Saya rezky EKA PUTRA
+---
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Selamat Datang</h2>
+            <p>Ini adalah halaman satu kolom yang dibuat menggunakan Jekyll. Struktur halaman dipisahkan menggunakan tag semantik seperti <code>&lt;section&gt;</code> tanpa bantuan CSS atau garis pemisah.</p>
+        </section>
+
+        <section>
+            <h2>Tentang Halaman Ini</h2>
+            <p>Bagian atas tetap menggunakan <em>Front Matter</em> Jekyll untuk mengisi judul secara otomatis lewat <code>{{ page.title }}</code>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Dibuat dengan Jekyll - {{ 'now' | date: "%Y" }}</p>
+    </footer>
+
+</body>
+</html>
